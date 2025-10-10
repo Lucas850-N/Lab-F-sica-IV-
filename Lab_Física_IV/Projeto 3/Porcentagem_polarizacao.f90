@@ -15,7 +15,7 @@ program Porcentagem_polarizacao
     P = 100*((I_max - I_min)/(I_max + I_min))
     delta_P = (200*I_max*(delta_I_max + delta_I_min))/((I_max + I_min)**2)
 
-    print ("(9X, A1, 20X, A7)"), "P", "Delta P"
+    print ("(9X, A1, 26X, A7)"), "P", "Delta P"
     print *, P, delta_P
 
 end program Porcentagem_polarizacao
